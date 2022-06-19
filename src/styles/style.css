@@ -1,0 +1,277 @@
+body{
+  font-family: 'Kaushan Script', cursive;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.rank{
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  max-height: 70vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+.rank-box{
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.your-nick{
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+
+.rank-box-0{
+  font-size: 35px;
+  color: red;
+}
+
+.rank-box-1{
+  font-size: 25px;
+}
+
+.rank-box-2{
+  font-size: 21px;
+}
+
+.nick-box{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nick-field{
+  border: 1px solid #ff6961;
+  padding: 15px;
+  outline: none;
+}
+
+.battlefield{
+  padding: 0;
+}
+
+.container{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.button-play{
+  border: 1px solid #ff6961;
+  background-color: #fff;
+  width: 50%;
+  height: 40%;
+  font-size: 2em;
+  box-sizing: border-box;
+  color: #ff6961;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.life-points-wrapper{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  opacity: .4;
+}
+
+.bar{
+  height: 40%;
+  width: 100%;
+  background-image: linear-gradient(to right, #ff6961, #ff696150);
+  border-radius: 5px;
+}
+
+.scoreboard{
+  z-index: 15;
+  width: 50px;
+  height: 5rem;
+  font-size: 5em;
+  color: #ff6961;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.life-bar{
+  width: 100%;
+  height: 1em;
+}
+
+.box-lose{
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 40%;
+  left: 20%;
+}
+
+.text-lose{
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ff6961;
+  text-align: center;
+}
+
+.button-lose{
+  border: 1px solid #ff6961;
+  background-color: #fff;
+  width: 50%;
+  height: 40%;
+  font-size: 2em;
+  box-sizing: border-box;
+  color: #ff6961;
+}
+
+.record{
+  color: #ff6961;
+  font-family: 'Kaushan Script', cursive;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+  opacity: .3;
+}
+
+.buff-keys{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.key-img{
+  opacity: .2;
+}
+
+.key-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-buff-amount{
+  font-size: 2em;
+  color: blue;
+  opacity: .2;
+}
+
+.black-buff-amount{
+  font-size: 2em;
+  color: black;
+  opacity: .2;
+}
+
+.orange-buff-amount{
+  font-size: 2em;
+  color: orange;
+  opacity: .2;  
+}
+
+.options-box{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.img-option{
+  height: 40px;
+  border: 3px solid transparent;
+}
+
+.img-option:hover{
+  border: 3px solid #ff6961;
+  border-radius: 5px;
+}
+
+.image-record-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.award-option{
+  width: 10px;
+}
+
+.record-option{
+  text-align: center;
+  color: #ff6961;
+}
+
+.credits{
+  width: 15%;
+  height: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+
+.credits-image{
+  height: 20px;
+}
+
+.r-wrapper{
+  width: 200px;
+}
+
+.sprint-box{
+  width: 100%;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.sprint-bar{
+  width: 100%;
+  height: 4px;
+  background-color: #61ff6e; 
+  border-radius: 5px;
+}
+
+.show{
+  display: flex;
+}
+.hide{
+  display: none;
+}
